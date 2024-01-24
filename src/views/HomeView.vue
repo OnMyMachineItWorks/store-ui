@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+    <h1 class="text-cyan-500">Test</h1>
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
 </template>
@@ -10,7 +11,7 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 import { ref, onMounted } from 'vue';
 
 onMounted(async () => {
-  await testApiCall();
+  //await testApiCall();
 })
 
 async function testApiCall() {
